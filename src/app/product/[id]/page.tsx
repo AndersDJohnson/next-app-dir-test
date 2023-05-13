@@ -7,9 +7,9 @@ export default function Product(props: any) {
 
   return (
     <div>
-      Welcome to product!
-      <Link href={`/product/${params.id}/variation/1`}>Variation 1</Link>
-      <Link href={`/product/${params.id}/variation/2`}>Variation 2</Link>
+      <p>Welcome to product {params.id}!</p>
+
+      {props.children}
     </div>
   );
 }
