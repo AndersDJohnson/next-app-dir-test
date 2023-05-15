@@ -17,7 +17,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             <Link href="/">Home</Link>
           </li>
         </ul>
-        <hr />
+
         {children}
       </body>
     </html>
