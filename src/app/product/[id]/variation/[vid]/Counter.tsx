@@ -5,6 +5,7 @@ import { useState } from "react";
 
 export const Counter = () => {
   const [, forceUpdate] = useState(0);
+
   return (
     <button
       onClick={() => {
